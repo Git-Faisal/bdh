@@ -45,7 +45,7 @@ LEARNING_RATE = 1e-3
 WEIGHT_DECAY = 0.1
 LOG_FREQ = 100
 
-input_file_path = os.path.join(os.path.dirname(__file__), "input.txt")
+input_file_path = os.path.join(os.path.dirname(__file__), "data", "input.txt")
 
 
 # Fetch the tiny Shakespeare dataset
